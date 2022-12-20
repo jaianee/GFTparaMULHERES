@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SLS</projectKey>
+    <exportDate>2022-12-20 16:16:51 UTC</exportDate>
+    <folders>
+        <folder fullPath="Metodo de Pagamento" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="77301899" key="SLS-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jaiane</createdBy>
+            <createdOn>2022-12-20 16:13:33 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Metodo de Pagamento]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente seleciona opção boleto bancário]]></name>
+            <owner>6377caf0f48fbd9b62d45745</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url de pagamento]]></description>
+                        <expectedResult><![CDATA[Exibe a p&aacute;gina de metodo de pagamento]]></expectedResult>
+                        <testData><![CDATA[https://url de pagamento]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Selecionar op&ccedil;&atilde;o boleto banc&aacute;rio]]></description>
+                        <expectedResult><![CDATA[Op&ccedil;&atilde;o marcada com um tick]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;Pr&oacute;xima Etapa&quot;]]></description>
+                        <expectedResult><![CDATA[Redireciona para p&aacute;gina de impress&atilde;o do boleto]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

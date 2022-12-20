@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SLS</projectKey>
+    <exportDate>2022-12-20 16:17:27 UTC</exportDate>
+    <folders>
+        <folder fullPath="Metodo de Pagamento" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="77301918" key="SLS-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jaiane</createdBy>
+            <createdOn>2022-12-20 16:16:32 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Metodo de Pagamento]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente não seleciona nenhuma opção]]></name>
+            <owner>6377caf0f48fbd9b62d45745</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url da pagina de metodos de pagamento]]></description>
+                        <expectedResult><![CDATA[Exibir p&aacute;gina com m&eacute;todos de pagamento]]></expectedResult>
+                        <testData><![CDATA[URL: https://url de pagamento]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;Pr&oacute;xima Etapa&quot;]]></description>
+                        <expectedResult><![CDATA[Mensagem exibida &quot;Necess&aacute;rio selecionar uma das op&ccedil;&otilde;es&quot;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

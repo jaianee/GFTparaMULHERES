@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SLS</projectKey>
+    <exportDate>2022-12-20 16:08:42 UTC</exportDate>
+    <folders>
+        <folder fullPath="Metodo de Pagamento" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="77301719" key="SLS-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Jaiane</createdBy>
+            <createdOn>2022-12-20 16:04:21 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Metodo de Pagamento]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente seleciona opção cartão de débito]]></name>
+            <owner>6377caf0f48fbd9b62d45745</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de pagamento
+
+And selecione a opção cartão de débito
+
+When apertar o botão ‘Próxima etapa’
+
+Then será redirecionado para uma tela de cadastro de cartão de débito]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
